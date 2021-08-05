@@ -1,0 +1,23 @@
+{
+    "store_source": true,
+    "default_search_fields": ["title", "overview"],
+    "field_mappings": [
+        {
+            "name": "id",
+            "type": "i64",
+            "fast": true
+        },
+        {
+            "name": "title",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+        },
+        {
+            "name": "overview",
+            "type": "text",
+            "indexed": true,
+            "stored": true
+        }
+    ]
+}
